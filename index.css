@@ -1,16 +1,16 @@
 .viewer {
-  perspective: 800px;
   width: 90%;
-  max-width: 400px;
-  aspect-ratio: 4 / 3; /* Keeps height in proportion */
+  max-width: 500px;
   margin: 40px auto;
-  touch-action: none; /* Prevents unwanted scrolling during touch tilt */
+  perspective: 1000px;
+  touch-action: none;
+  transition: aspect-ratio 0.3s ease;
 }
 
 .image-wrapper {
   width: 100%;
   height: 100%;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
   transform-style: preserve-3d;
   border-radius: 12px;
   overflow: hidden;
@@ -20,6 +20,6 @@
 .image-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* This will be overridden by JS if needed */
   display: block;
 }
