@@ -1,4 +1,4 @@
-const imgPrefixMSMS = "/building_photos_archive/msms";
+const imgPrefixMSMS = "/building_photos_archive/msms/";
 const imgListMSMS = [
   "IMG_0181.jpg",
   "IMG_0300.JPG",
