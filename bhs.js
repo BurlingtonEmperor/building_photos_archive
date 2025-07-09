@@ -96,7 +96,15 @@ const imgListBHS = [
   "z3.jpeg",
   "z4.jpeg",
   "z5.jpeg",
-  "z6.jpeg"
+  "z6.jpeg",
+  "z7.jpeg",
+  "z8.jpeg",
+  "z9.jpeg",
+  "z10.jpeg",
+  "z11.jpeg",
+  "z12.jpeg",
+  "z13.jpeg",
+  "z14.jpeg"
 ];
 
 const imgDescBHS = [
@@ -159,15 +167,8 @@ const imgDescBHS = [
   "Track Meet 2,Press Box (Varsity Field)",
   "Storage Closet,English Hallway",
   "Rotary Phone, English Hallway",
-// Barricade, Auditorium Lobby
-// Vandals,Elevator Lobby (Gym Hallway)
-// Workout,Fitness Center
-// Under Construction,Lower Library
-// Under Construction 2,Lower Library
-// Gyatt,Varsity Field
   "Basement,Basement",
   "Basement 2,Basement",
-  // "Basement 5,Basement",
   "Omen,Varsity Field",
   "Level,Boys Locker Room",
   "One Day,Elevator Lobby (Gym Hallway)",
@@ -203,4 +204,12 @@ const imgDescBHS = [
   "Basement 3,Basement",
   "Basement 4,Basement",
   "Storage Closet 2, English Hallway",
+  "Barricade, Auditorium Lobby",
+  "Workout,Fitness Center",
+  "Bad Day,Bathroom (Main Lobby)",
+  "Basement 5,Basement",
+  "Under Construction,Lower Library",
+  "Under Construction 2,Lower Library",
+  "Hoot,Faculty Parking Lot",
+  "Gyatt,Varsity Field"
 ];
