@@ -59,3 +59,74 @@ function changeImageSmoothly(imgEl, newSrc) {
     };
   }, 400); // Match this to CSS transition time
 }
+
+let currentList = imgListPG;
+let currentDesc = imgDescPG;
+let posNum = 0;
+let maxPos = imgListPG.length - 1;
+let imgPrefix = imgPrefixPG;
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const building = urlParams.get('building');
+
+const imgName = document.getElementById("img-name");
+const imgLocation = document.getElementById("img-location");
+
+switch (building) {
+  default:
+  case "pineglen":
+    break;
+  case "msms":
+    break;
+  case "bhs":
+    break;
+  case "wildwood":
+    break;
+  case "francis":
+    break;
+}
+
+const prevButton = document.getElementById("prev");
+const nextButton = document.getElementById("next");
+
+function findImgNameAndLocation (pauseNum) {
+  let infoArr = currentDesc[pauseNum].split(",");
+  return infoArr;
+}
+
+prevButton.onclick = function () {
+  if (building === "" || building === null || building === undefined) {
+    return false;
+  }
+
+  switch (posNum) {
+    case 0:
+      return false;
+    default:
+      posNum--;
+      let foundMe = findImgNameAndLocation(posNum);
+      imgName.innerText = foundMe[0];
+      imgLocation.innerText = foundMe[1];
+      changeImageSmoothly(img, imgPrefix + currentList[posNum]);
+      break;
+  }
+}
+
+nextButton.onclick = function () {
+  if (building === "" || building === null || building === undefined) {
+    return false;
+  }
+
+  switch (posNum) {
+    case maxPos:
+      return false;
+    default:
+      posNum++;
+      let foundMe = findImgNameAndLocation(posNum);
+      imgName.innerText = foundMe[0];
+      imgLocation.innerText = foundMe[1];
+      changeImageSmoothly(img, imgPrefix + currentList[posNum]);
+      break;
+  }
+}

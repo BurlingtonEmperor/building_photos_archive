@@ -3,6 +3,11 @@
   src: url("/building_photos_archive/ROMANSEX.ttf");
 }
 
+p {
+  margin: 0;
+  font-family: "ROMANSEX";
+}
+
 .viewer {
   width: 90%;
   max-width: 500px;
@@ -52,12 +57,12 @@ img.fade-out {
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-  display: block; 
-  margin: auto;
+  /* display: block; 
+  margin: auto; */
   font-family: "ROMANSEX";
   color: black;
 }
@@ -72,4 +77,8 @@ img.fade-out {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.center-text {
+  text-align: center;
 }
