@@ -93,6 +93,7 @@ switch (building) {
     currentDesc = imgDescWildwood;
     maxPos = imgListWildwood.length - 1;
     disclaimer.innerHTML = "These images are from <a href='https://www.uer.ca/locations/show.asp?locid=32116'>UER.ca</a>.";
+    imgPrefix = imgPrefixWildwood;
     break;
   case "francis":
     break;
@@ -160,4 +161,4 @@ function initPG () {
   imgLocation.innerText = foundMe[1];
 }
 
-initPG();
+// initPG();
