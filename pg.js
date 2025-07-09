@@ -65,3 +65,5 @@ function initPG () {
   // Change the image smoothly
   changeImageSmoothly(img, imgPrefixPG + imgListPG[0]);
 }
+
+initPG();
