@@ -95,6 +95,7 @@ switch (building) {
     let foundMeZ = findImgNameAndLocation(0);
     imgName.innerText = foundMeZ[0];
     imgLocation.innerText = foundMeZ[1];
+    imgPrefix = imgPrefixMSMS;
     changeImageSmoothly(img, imgPrefixMSMS + imgListMSMS[0]);
     break;
   case "bhs":
