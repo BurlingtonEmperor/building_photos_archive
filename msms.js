@@ -7,10 +7,12 @@ const imgListMSMS = [
   "IMG_7313.jpg"
 ];
 
+// Flags,Right Glass Hallway
+
 const imgDescMSMS = [
   "Drift,Roundabout",
   "Ms. Miley's Classroom,Math Hallway",
-  "Nostalgia,Brush Field Parking Lot",
   "Flags,Right Glass Hallway",
-  "Goodbye,Auditorium Lobby Exterior"
+  "Goodbye,Auditorium Lobby (Exterior)",
+  "Nostalgia,Brush Field Parking Lot"
 ];
