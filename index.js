@@ -47,9 +47,12 @@ document.querySelectorAll(".viewer").forEach(viewer => {
   });
 });
 
+let isImageFinishedLoading = 1;
+
 function changeImageSmoothly(imgEl, newSrc) {
   // Fade out
   imgEl.classList.add('fade-out');
+  isImageFinishedLoading = 0;
 
   // After fade-out completes, change the src
   setTimeout(() => {
@@ -58,6 +61,7 @@ function changeImageSmoothly(imgEl, newSrc) {
     // Wait for the image to load, then fade back in
     imgEl.onload = () => {
       imgEl.classList.remove('fade-out');
+      isImageFinishedLoading = 1;
     };
   }, 400); // Match this to CSS transition time
 }
@@ -102,6 +106,11 @@ prevButton.onclick = function () {
     return false;
   }
 
+  switch (isImageFinishedLoading) {
+    case 0:
+      return false;
+  }
+
   switch (posNum) {
     case 0:
       return false;
@@ -120,6 +129,11 @@ nextButton.onclick = function () {
     return false;
   }
 
+  switch (isImageFinishedLoading) {
+    case 0:
+      return false;
+  }
+
   switch (posNum) {
     case maxPos:
       return false;
@@ -136,6 +150,9 @@ nextButton.onclick = function () {
 function initPG () {
   // Change the image smoothly
   changeImageSmoothly(img, imgPrefixPG + imgListPG[0]);
+  let foundMe = findImgNameAndLocation(0);
+  imgName.innerText = foundMe[0];
+  imgLocation.innerText = foundMe[1];
 }
 
 initPG();
