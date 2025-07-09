@@ -1,4 +1,4 @@
-const imgPrefixMSMS = "/building_photos_archive/bhs/";
+const imgPrefixBHS = "/building_photos_archive/bhs/";
 const imgListBHS = [
   "1.jpg",
   "IMG_0108.jpg",
@@ -104,7 +104,12 @@ const imgListBHS = [
   "z11.jpeg",
   "z12.jpeg",
   "z13.jpeg",
-  "z14.jpeg"
+  "z14.jpeg",
+  "z15.jpeg",
+  "z16.jpeg",
+  "z17.jpeg",
+  "z18.jpeg",
+  "z19.jpeg"
 ];
 
 const imgDescBHS = [
@@ -211,5 +216,10 @@ const imgDescBHS = [
   "Under Construction,Lower Library",
   "Under Construction 2,Lower Library",
   "Hoot,Faculty Parking Lot",
-  "Gyatt,Varsity Field"
+  "Gyatt,Varsity Field",
+  "Mythos,Gym Lobby",
+  "Magic Skies,Varsity Field",
+  "Car,Fitness Center",
+  "Losing a Memory,Practice Field",
+  "WTF,Elevator Lobby (Gym Hallway)"
 ];
