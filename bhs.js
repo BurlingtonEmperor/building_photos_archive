@@ -172,6 +172,7 @@ const imgDescBHS = [
   "Track Meet 2,Press Box (Varsity Field)",
   "Storage Closet,English Hallway",
   "Rotary Phone, English Hallway",
+  "Alt-Ed,Alternative Education Hallway",
   "Basement,Basement",
   "Basement 2,Basement",
   "Omen,Varsity Field",
