@@ -83,6 +83,10 @@ const disclaimer = document.getElementById("disclaimer");
 switch (building) {
   default:
   case "pineglen":
+    changeImageSmoothly(img, imgPrefixPG + imgListPG[0]);
+    let foundMe = findImgNameAndLocation(0);
+    imgName.innerText = foundMe[0];
+    imgLocation.innerText = foundMe[1];
     break;
   case "msms":
     break;
