@@ -1,3 +1,5 @@
+const img = document.querySelector('.image-wrapper img');
+
 document.querySelectorAll(".viewer").forEach(viewer => {
   const wrapper = viewer.querySelector('.image-wrapper');
   const img = wrapper.querySelector('img');
@@ -132,8 +134,6 @@ nextButton.onclick = function () {
 }
 
 function initPG () {
-  const img = document.querySelector('.image-wrapper img');
-
   // Change the image smoothly
   changeImageSmoothly(img, imgPrefixPG + imgListPG[0]);
 }
