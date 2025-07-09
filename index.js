@@ -92,7 +92,7 @@ switch (building) {
     currentList = imgListWildwood;
     currentDesc = imgDescWildwood;
     maxPos = imgListWildwood.length - 1;
-    disclaimer.innerHTML = "These images are from <a href='https://www.uer.ca/locations/show.asp?locid=32116'>UER.ca</a>.";
+    disclaimer.innerHTML = "These images are from <a href='https://www.uer.ca/locations/show.asp?locid=32116' target='_blank'>UER.ca</a>.";
     imgPrefix = imgPrefixWildwood;
     changeImageSmoothly(img, imgPrefixWildwood + imgListWildwood[0]);
     break;
