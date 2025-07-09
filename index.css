@@ -59,6 +59,7 @@ img.fade-out {
   display: block; 
   margin: auto;
   font-family: "ROMANSEX";
+  color: black;
 }
 
 .glass-button:hover {
@@ -71,5 +72,4 @@ img.fade-out {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
