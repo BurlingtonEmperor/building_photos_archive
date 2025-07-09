@@ -130,3 +130,12 @@ nextButton.onclick = function () {
       break;
   }
 }
+
+function initPG () {
+  const img = document.querySelector('.image-wrapper img');
+
+  // Change the image smoothly
+  changeImageSmoothly(img, imgPrefixPG + imgListPG[0]);
+}
+
+initPG();
