@@ -92,9 +92,9 @@ switch (building) {
     currentList = imgListMSMS;
     currentDesc = imgDescMSMS;
     maxPos = imgListMSMS.length - 1;
-    let foundMe = findImgNameAndLocation(0);
-    imgName.innerText = foundMe[0];
-    imgLocation.innerText = foundMe[1];
+    let foundMeZ = findImgNameAndLocation(0);
+    imgName.innerText = foundMeZ[0];
+    imgLocation.innerText = foundMeZ[1];
     changeImageSmoothly(img, imgPrefixMSMS + imgListMSMS[0]);
     break;
   case "bhs":
