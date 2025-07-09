@@ -44,3 +44,18 @@ document.querySelectorAll(".viewer").forEach(viewer => {
     wrapper.style.transform = `rotateX(0deg) rotateY(0deg)`;
   });
 });
+
+function changeImageSmoothly(imgEl, newSrc) {
+  // Fade out
+  imgEl.classList.add('fade-out');
+
+  // After fade-out completes, change the src
+  setTimeout(() => {
+    imgEl.src = newSrc;
+
+    // Wait for the image to load, then fade back in
+    imgEl.onload = () => {
+      imgEl.classList.remove('fade-out');
+    };
+  }, 400); // Match this to CSS transition time
+}
