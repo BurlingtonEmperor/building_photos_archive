@@ -118,6 +118,16 @@ switch (building) {
     break;
   case "francis":
     break;
+  case "hurld":
+    currentList = imageListHurld;
+    currentDesc = imgDescHurld;
+    maxPos = imageListHurld.length - 1;
+    let foundMeHurld = findImgNameAndLocation(0);
+    imgName.innerText = foundMeHurld[0];
+    imgLocation.innerText = foundMeHurld[1];
+    imgPrefix = imgPrefixHurld;
+    changeImageSmoothly(img, imgPrefixHurld + imageListHurld[0]);
+    break;
 }
 
 const prevButton = document.getElementById("prev");
