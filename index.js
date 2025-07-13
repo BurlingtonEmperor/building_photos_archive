@@ -117,6 +117,14 @@ switch (building) {
     changeImageSmoothly(img, imgPrefixWildwood + imgListWildwood[0]);
     break;
   case "francis":
+    currentList = imgListFrancis;
+    currentDesc = imgDescFrancis;
+    maxPos = imgListFrancis.length - 1;
+    let foundMeFrancis = findImgNameAndLocation(0);
+    imgName.innerText = foundMeFrancis[0];
+    imgLocation.innerText = foundMeFrancis[1];
+    imgPrefix = imgPrefixFrancis;
+    changeImageSmoothly(img, imgPrefixFrancis + imgListFrancis[0]);
     break;
   case "hurld":
     currentList = imageListHurld;
