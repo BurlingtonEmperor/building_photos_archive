@@ -1,0 +1,1 @@
+const imgPrefixFrancis = "/building_photos_archive/francis/";

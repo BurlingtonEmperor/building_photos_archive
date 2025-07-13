@@ -109,7 +109,11 @@ const imgListBHS = [
   "z16.jpeg",
   "z17.jpeg",
   "z18.jpeg",
-  "z19.jpeg"
+  "z19.jpeg",
+  "z20.jpg",
+  "z21.jpg",
+  "z22.jpg",
+  "z23.jpg"
 ];
 
 const imgDescBHS = [
@@ -222,5 +226,9 @@ const imgDescBHS = [
   "Magic Skies,Varsity Field",
   "Car,Fitness Center",
   "Losing a Memory,Practice Field",
-  "WTF,Elevator Lobby (Gym Hallway)"
+  "WTF,Elevator Lobby (Gym Hallway)",
+  "Dead Library,Upper Library",
+  "Dead Library 2,Upper Library",
+  "Dead Library 3,Upper Library",
+  "Dead Library 4,Upper Library"
 ];
