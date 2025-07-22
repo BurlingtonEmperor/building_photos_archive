@@ -4,7 +4,8 @@ const imgListMSMS = [
   "IMG_0300.JPG",
   "IMG_3867.jpg",
   "IMG_4803.jpg",
-  "IMG_7313.jpg"
+  "IMG_7313.jpg",
+  "IMG_2141.jpeg"
 ];
 
 // Flags,Right Glass Hallway
@@ -14,5 +15,6 @@ const imgDescMSMS = [
   "Ms. Miley's Classroom,Math Hallway",
   "Flags,Right Glass Hallway",
   "Goodbye,Auditorium Lobby (Exterior)",
-  "Nostalgia,Brush Field Parking Lot"
+  "Nostalgia,Brush Field Parking Lot",
+  "Grand View,Brush Field"
 ];
