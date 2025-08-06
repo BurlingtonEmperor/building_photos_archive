@@ -116,7 +116,7 @@ const imgListBHS = [
   "z23.jpg",
   "z24.jpg",
   "z25.jpg",
-  "robotics4.jpeg",
+  "robotics4.JPEG",
   "z26.jpg",
   "z27.jpg",
   "z28.jpg",
