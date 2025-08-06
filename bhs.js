@@ -113,7 +113,13 @@ const imgListBHS = [
   "z20.jpg",
   "z21.jpg",
   "z22.jpg",
-  "z23.jpg"
+  "z23.jpg",
+  "z24.jpg",
+  "z25.jpg",
+  "robotics4.jpeg",
+  "z26.jpg",
+  "z27.jpg",
+  "z28.jpg"
 ];
 
 const imgDescBHS = [
@@ -230,5 +236,11 @@ const imgDescBHS = [
   "Dead Library,Upper Library",
   "Dead Library 2,Upper Library",
   "Dead Library 3,Upper Library",
-  "Dead Library 4,Upper Library"
+  "Dead Library 4,Upper Library",
+  "School Spirits,Former Auto Shop Class",
+  "ESC,Former Auto Shop Class",
+  "Devilbotz,Lower Library",
+  "J-E-N-O-V-A,Gym Lobby",
+  "Discarded Gift,Student Parking Lot",
+  "Defamation,Mr. Stringer's Room"
 ];
