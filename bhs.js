@@ -119,7 +119,9 @@ const imgListBHS = [
   "robotics4.jpeg",
   "z26.jpg",
   "z27.jpg",
-  "z28.jpg"
+  "z28.jpg",
+  "z29.jpg",
+  "z30.jpg"
 ];
 
 const imgDescBHS = [
@@ -242,5 +244,7 @@ const imgDescBHS = [
   "Devilbotz,Lower Library",
   "J-E-N-O-V-A,Gym Lobby",
   "Discarded Gift,Student Parking Lot",
-  "Defamation,Mr. Stringer's Room"
+  "Defamation,Mr. Stringer's Room",
+  "Old Power Station,Varsity Field",
+  "Era Death,Lower Library"
 ];
