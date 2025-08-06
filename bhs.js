@@ -121,7 +121,11 @@ const imgListBHS = [
   "z27.jpg",
   "z28.jpg",
   "z29.jpg",
-  "z30.jpg"
+  "z30.jpg",
+  "z31.jpg",
+  "z32.jpg",
+  "z33.jpg",
+  "z34.jpg"
 ];
 
 const imgDescBHS = [
@@ -246,5 +250,9 @@ const imgDescBHS = [
   "Discarded Gift,Student Parking Lot",
   "Defamation,Mr. Stringer's Room",
   "Old Power Station,Varsity Field",
-  "Era Death,Lower Library"
+  "Era Death,Lower Library",
+  "Latin Lesson,Mr. Stringer's Room",
+  "CLubhouse,Math Hallway Boys Bathroom",
+  "Missing Tiles,History Hallway Boys Bathroom",
+  "Fall Vibrancy,Elevator Lobby (Gym Hallway)"
 ];
