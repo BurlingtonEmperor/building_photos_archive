@@ -125,7 +125,10 @@ const imgListBHS = [
   "z31.jpg",
   "z32.jpg",
   "z33.jpg",
-  "z34.jpg"
+  "z34.jpg",
+  "z35.jpg",
+  "z36.jpg",
+  "z37.PNG"
 ];
 
 const imgDescBHS = [
@@ -254,5 +257,8 @@ const imgDescBHS = [
   "Latin Lesson,Mr. Stringer's Room",
   "CLubhouse,Math Hallway Boys Bathroom",
   "Missing Tiles,History Hallway Boys Bathroom",
-  "Fall Vibrancy,Elevator Lobby (Gym Hallway)"
+  "Fall Vibrancy,Elevator Lobby (Gym Hallway)",
+  "Street Fire,Mr. Whitten's Room (History Hallway)",
+  "Windows 95 2,Mac Lab (English Hallway)",
+  "Horrible Day,Boys Lobby Bathroom"
 ];
