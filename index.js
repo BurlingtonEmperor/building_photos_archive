@@ -140,7 +140,7 @@ switch (building) {
     currentList = imgListMemorial;
     currentDesc = imgDescMemorial;
     maxPos = imgListMemorial.length - 1;
-    let foundMeHMemorial = findImgNameAndLocation(0);
+    let foundMeMemorial = findImgNameAndLocation(0);
     imgName.innerText = foundMeMemorial[0];
     imgLocation.innerText = foundMeMemorial[1];
     imgPrefix = imgPrefixMemorial;
