@@ -128,7 +128,12 @@ const imgListBHS = [
   "z34.jpg",
   "z35.jpg",
   "z36.jpg",
-  "z37.PNG"
+  "z37.PNG",
+  "z38.jpg",
+  "z39.JPG",
+  "z40.jpg",
+  "z41.jpg",
+  "z42.jpg"
 ];
 
 const imgDescBHS = [
@@ -260,5 +265,10 @@ const imgDescBHS = [
   "Fall Vibrancy,Elevator Lobby (Gym Hallway)",
   "Street Fire,Mr. Whitten's Room (History Hallway)",
   "Windows 95 2,Mac Lab (English Hallway)",
-  "Horrible Day,Boys Lobby Bathroom"
+  "Horrible Day,Boys Lobby Bathroom",
+  "Beavis and Butthead,Mr. Stringer's Room",
+  "Action!,Auditorium",
+  "Hey Arnold,Storage Closet (Science Hallway)",
+  "Mr. Leonard's Room 2,Science Hallway",
+  "Hazard,Student Parking Lot"
 ];
