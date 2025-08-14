@@ -26,7 +26,8 @@ const imgListPG = [
   "IMG_9380.jpg",
   "IMG_9382.jpg",
   "IMG_9383.jpg",
-  "IMG_9384.jpg"
+  "IMG_9384.jpg",
+  "z1.jpg"
 ];
 
 const imgDescPG = [
@@ -56,5 +57,6 @@ const imgDescPG = [
   "Welcome,Side Field",
   "Overgrown,Baseball Field",
   "Fences,Playground",
-  "Cubbys,Lower Hallway"
+  "Cubbys,Lower Hallway",
+  "Secret Stone Slab,Side Field"
 ];

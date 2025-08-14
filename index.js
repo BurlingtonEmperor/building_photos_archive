@@ -146,6 +146,16 @@ switch (building) {
     imgPrefix = imgPrefixMemorial;
     changeImageSmoothly(img, imgPrefixMemorial + imgListMemorial[0]);
     break;
+  case "foxhill":
+    currentList = imgListFox;
+    currentDesc = imgDescFox;
+    maxPos = imgListFox.length - 1;
+    let foundMeFox = findImgNameAndLocation(0);
+    imgName.innerText = foundMeFox[0];
+    imgLocation.innerText = foundMeFox[1];
+    imgPrefix = imgPrefixFox;
+    changeImageSmoothly(img, imgPrefixFox + imgListFox[0]);
+    break;
 }
 
 const prevButton = document.getElementById("prev");
