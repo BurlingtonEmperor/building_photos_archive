@@ -133,7 +133,10 @@ const imgListBHS = [
   "z39.JPG",
   "z40.jpg",
   "z41.jpg",
-  "z42.jpg"
+  "z42.jpg",
+  "z43.JPEG",
+  "z44.jpg",
+  "z45.jpg"
 ];
 
 const imgDescBHS = [
@@ -229,7 +232,7 @@ const imgDescBHS = [
   "Piano Man,Music Hallway",
   "Two Moons,Gym Parking Lot",
   "Poltergeist,Boys Locker Room",
-  "Hawthorne Sucks,Mr. Pustizzi’s Room (English Hallway)",
+  "Hawthorne Sucks,Mr. Pustizzi's Room (English Hallway)",
   "Vandals,Elevator Lobby (Gym Hallway)",
   "Basement 3,Basement",
   "Basement 4,Basement",
@@ -270,5 +273,8 @@ const imgDescBHS = [
   "Action!,Auditorium",
   "Hey Arnold,Storage Closet (Science Hallway)",
   "Mr. Leonard's Room 2,Science Hallway",
-  "Hazard,Student Parking Lot"
+  "Hazard,Student Parking Lot",
+  "Family Tree,Fitness Center",
+  "Hall of Fame,Elevator Lobby (Gym Hallway)",
+  "Midgar,Boys Locker Room"
 ];
