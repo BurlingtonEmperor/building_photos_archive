@@ -140,7 +140,9 @@ const imgListBHS = [
   "z46.jpg",
   "z47.jpg",
   "z48.jpg",
-  "z49.jpg"
+  "z49.jpg",
+  "z50.jpg",
+  "z51.jpg"
 ];
 
 const imgDescBHS = [
@@ -284,5 +286,7 @@ const imgDescBHS = [
   "Code Deciphered,Boys Locker Room",
   "I Wish,Boys Locker Room",
   "Drone Control,Varsity Field",
-  "Eye in the Sky,AD's Office,Health Hallway"
+  "Eye in the Sky,AD's Office (Health Hallway)",
+  "IT Office,IT Hallway",
+  "Do Not Touch,Trainer's Room (Gym Hallway)"
 ];

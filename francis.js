@@ -10,7 +10,8 @@ const imgListFrancis = [
   "IMG_2283.jpg",
   "IMG_2284.jpg",
   "IMG_2285.jpg",
-  "IMG_8458.jpg"
+  "IMG_8458.jpg",
+  "IMG_1926.jpg"
 ];
 
 const imgDescFrancis = [
@@ -24,5 +25,6 @@ const imgDescFrancis = [
   "Curtains,Auditorium",
   "Dark,Upper Hallway",
   "Creative,Classroom (Upper Hallway)",
-  "Firefly,Courtyard"
+  "Firefly,Courtyard",
+  "Sand Castle,Main Lobby"
 ];

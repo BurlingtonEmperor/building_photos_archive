@@ -7,7 +7,8 @@ const imgListMSMS = [
   "IMG_7313.jpg",
   "IMG_2141.jpeg",
   "IMG_0230.jpg",
-  "IMG_3304.jpg"
+  "IMG_3304.jpg",
+  "z1.jpg"
 ];
 
 // Flags,Right Glass Hallway
@@ -20,5 +21,6 @@ const imgDescMSMS = [
   "Nostalgia,Brush Field Parking Lot",
   "Grand View,Brush Field",
   "Dexter's Lab,Unknown Science Classroom",
-  "Roundbeck,Side View (Exterior)"
+  "Roundbeck,Side View (Exterior)",
+  "Summer Central,Cafeteria"
 ];
