@@ -136,7 +136,11 @@ const imgListBHS = [
   "z42.jpg",
   "z43.JPEG",
   "z44.jpg",
-  "z45.jpg"
+  "z45.jpg",
+  "z46.jpg",
+  "z47.jpg",
+  "z48.jpg",
+  "z49.jpg"
 ];
 
 const imgDescBHS = [
@@ -275,6 +279,10 @@ const imgDescBHS = [
   "Mr. Leonard's Room 2,Science Hallway",
   "Hazard,Student Parking Lot",
   "Family Tree,Fitness Center",
-  "Hall of Fame,Elevator Lobby (Gym Hallway)",
-  "Midgar,Boys Locker Room"
+  "Wall of Fame,Elevator Lobby (Gym Hallway)",
+  "Midgar,Boys Locker Room",
+  "Code Deciphered,Boys Locker Room",
+  "I Wish,Boys Locker Room",
+  "Drone Control,Varsity Field",
+  "Eye in the Sky,AD's Office,Health Hallway"
 ];
