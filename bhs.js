@@ -143,7 +143,11 @@ const imgListBHS = [
   "z49.jpg",
   "z50.jpg",
   "z51.jpg",
-  "z52.jpg"
+  "z52.jpg",
+  "z53.jpg",
+  "z54.jpg",
+  "z55.jpg",
+  "z56.jpg"
 ];
 
 const imgDescBHS = [
@@ -290,5 +294,9 @@ const imgDescBHS = [
   "Eye in the Sky,AD's Office (Health Hallway)",
   "IT Office,IT Hallway",
   "Do Not Touch,Trainer's Room (Gym Hallway)",
-  "Track Bus,Gym Parking Lot"
+  "Track Bus,Gym Parking Lot",
+  "Storage Closet 2,Main Lobby",
+  "Rizz,Mr. Whitten's Room (History Hallway)",
+  "Carr's Truck,Gym Parking Lot",
+  "Hidden Library,Janitorial Closet (Science Hallway)"
 ];
