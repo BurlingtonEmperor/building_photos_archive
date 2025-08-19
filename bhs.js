@@ -151,7 +151,8 @@ const imgListBHS = [
   "z57.jpg",
   "z58.jpg",
   "z59.jpg",
-  "z60.jpg"
+  "z60.jpg",
+  "z61.jpg"
 ];
 
 const imgDescBHS = [
@@ -306,5 +307,6 @@ const imgDescBHS = [
   "Fire Hydrant,Gym Parking Lot",
   "Big Brother is Watching,Rubber Gym",
   "American Graffiti,Fitness Center",
-  "Pheonix Down,Boys Locker Room"
+  "Pheonix Down,Boys Locker Room",
+  "To Gondor!,Storage Closet (Wooden Gym)"
 ];
