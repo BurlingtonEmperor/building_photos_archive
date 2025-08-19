@@ -147,7 +147,11 @@ const imgListBHS = [
   "z53.jpg",
   "z54.jpg",
   "z55.jpg",
-  "z56.jpg"
+  "z56.jpg",
+  "z57.jpg",
+  "z58.jpg",
+  "z59.jpg",
+  "z60.jpg"
 ];
 
 const imgDescBHS = [
@@ -298,5 +302,9 @@ const imgDescBHS = [
   "Storage Closet 2,Main Lobby",
   "Rizz,Mr. Whitten's Room (History Hallway)",
   "Carr's Truck,Gym Parking Lot",
-  "Hidden Library,Janitorial Closet (Science Hallway)"
+  "Hidden Library,Janitorial Closet (Science Hallway)",
+  "Fire Hydrant,Gym Parking Lot",
+  "Big Brother is Watching,Rubber Gym",
+  "American Graffiti,Fitness Center",
+  "Pheonix Down,Boys Locker Room"
 ];
