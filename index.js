@@ -114,6 +114,9 @@ switch (building) {
     maxPos = imgListWildwood.length - 1;
     disclaimer.innerHTML = "These images are from <a href='https://www.uer.ca/locations/show.asp?locid=32116' target='_blank'>UER.ca</a>.";
     imgPrefix = imgPrefixWildwood;
+    let foundMeWildwood = findImgNameAndLocation(0);
+    imgName.innerText = foundMeWildwood[0];
+    imgLocation.innerText = foundMeWildwood[1];
     changeImageSmoothly(img, imgPrefixWildwood + imgListWildwood[0]);
     break;
   case "francis":
