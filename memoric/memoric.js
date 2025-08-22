@@ -1,0 +1,32 @@
+function changeImageSmoothly(imgEl, newSrc) {
+  imgEl.classList.add('fade-out');
+  isImageFinishedLoading = 0;
+
+  setTimeout(() => {
+    imgEl.src = newSrc;
+
+    imgEl.onload = () => {
+      imgEl.classList.remove('fade-out');
+      isImageFinishedLoading = 1;
+    };
+  }, 400); 
+}
+
+const memoricImagePath = "/memoric/photos/";
+const memoricImagesList = [
+  "z1.jpg",
+  "z2.jpg",
+  "z3.jpg",
+  "z4.jpg"
+];
+const memoricNamesList = [
+  "EvilCorp",
+  "Frutiger Aero",
+  "Empire of the Sun",
+  "Aerith"
+];
+
+let imageZLoc = 0;
+function imageRotate () {
+  
+}
