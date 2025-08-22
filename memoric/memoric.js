@@ -17,13 +17,21 @@ const memoricImagesList = [
   "z1.jpg",
   "z2.jpg",
   "z3.jpg",
-  "z4.jpg"
+  "z4.jpg",
+  "z5.jpg",
+  "z6.jpg",
+  "z7.jpg",
+  "z8.jpg"
 ];
 const memoricNamesList = [
   "EvilCorp",
   "Frutiger Aero",
   "Empire of the Sun",
-  "Aerith"
+  "Aerith",
+  "Linus and Lucy",
+  "Death Angel, USA",
+  "XClusive",
+  "Big Nate"
 ];
 
 let imageZLoc = 0;
