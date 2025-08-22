@@ -29,7 +29,16 @@ const memoricImagesList = [
   "z13.jpg",
   "z14.jpg",
   "z15.jpg",
-  "z16.jpg"
+  "z16.jpg",
+  "z17.jpg",
+  "z18.jpg",
+  "z19.jpg",
+  "z20.jpg",
+  "z21.JPG",
+  "z22.jpg",
+  "z23.jpg",
+  "z24.jpg",
+  "z25.jpg"
 ];
 const memoricNamesList = [
   "EvilCorp",
@@ -47,7 +56,15 @@ const memoricNamesList = [
   "Tower of Death",
   "Beavis",
   "Butthead",
-  "Graduation. '23"
+  "Graduation. '23",
+  "Earthbound",
+  "Hockey Game",
+  "Soccer Game",
+  "Zenithia",
+  "One-Winged Angel",
+  "Frosty the Snowman",
+  "Independence",
+  "Reggie Lewis"
 ];
 
 let imageZLoc = 0;
