@@ -52,3 +52,7 @@ body {
 img.fade-out {
   opacity: 0;
 }
+
+#linus {
+  visibility: hidden;
+}

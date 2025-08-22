@@ -97,6 +97,8 @@ function imageRotate () {
   imageName.innerText = memoricNamesList[imageZLoc];
 }
 
-setInterval(function () {
-  imageRotate();
-}, 6000);
+imageChooser.onload = function () {
+  setInterval(function () {
+    imageRotate();
+  }, 6000);
+}
