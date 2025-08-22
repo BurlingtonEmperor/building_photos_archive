@@ -42,7 +42,9 @@ const memoricImagesList = [
   "z26.jpg",
   "z27.jpg",
   "z28.jpg",
-  "z29.jpg"
+  "z29.jpg",
+  "z30.jpg",
+  "z31.jpg"
 ];
 const memoricNamesList = [
   "EvilCorp",
@@ -72,10 +74,29 @@ const memoricNamesList = [
   "Mills and Ponds",
   "Last Field Day",
   "Prom",
-  "Me in the Middle."
+  "Me in the Middle.",
+  "Twilight",
+  "Rag Rock."
 ];
 
 let imageZLoc = 0;
+const imageChooser = document.getElementById("linus");
+const imageName = document.getElementById("image-name");
+
 function imageRotate () {
-  
+  switch (imageZLoc) {
+    case 30:
+      imageZLoc = 0;
+      break;
+    default:
+      imageZLoc += 1;
+      break;
+  }
+
+  changeImageSmoothly(imageChooser, memoricImagePath + memoricImagesList[imageZLoc]);
+  imageName.innerText = memoricNamesList[imageZLoc];
 }
+
+setInterval(function () {
+  imageRotate();
+}, 6000);
