@@ -38,7 +38,11 @@ const memoricImagesList = [
   "z22.jpg",
   "z23.jpg",
   "z24.jpg",
-  "z25.jpg"
+  "z25.jpg",
+  "z26.jpg",
+  "z27.jpg",
+  "z28.jpg",
+  "z29.jpg"
 ];
 const memoricNamesList = [
   "EvilCorp",
@@ -64,7 +68,11 @@ const memoricNamesList = [
   "One-Winged Angel",
   "Frosty the Snowman",
   "Independence",
-  "Reggie Lewis"
+  "Reggie Lewis",
+  "Mills and Ponds",
+  "Last Field Day",
+  "Prom",
+  "Me in the Middle."
 ];
 
 let imageZLoc = 0;
