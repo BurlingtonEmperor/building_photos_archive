@@ -97,8 +97,13 @@ function imageRotate () {
   imageName.innerText = memoricNamesList[imageZLoc];
 }
 
-imageChooser.onload = function () {
-  setInterval(function () {
-    imageRotate();
-  }, 6000);
+// imageChooser.onload = function () {
+//   setInterval(function () {
+//     imageRotate();
+//   }, 6000);
+// }
+
+const nextBtn = document.getElementById("next-btn");
+nextBtn.onclick = function () {
+  imageRotate();
 }
