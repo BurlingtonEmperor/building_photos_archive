@@ -12,7 +12,7 @@ function changeImageSmoothly(imgEl, newSrc) {
   }, 400); 
 }
 
-const memoricImagePath = "/memoric/photos/";
+const memoricImagePath = "../memoric/photos/";
 const memoricImagesList = [
   "z1.jpg",
   "z2.jpg",
