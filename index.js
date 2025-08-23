@@ -179,6 +179,10 @@ prevButton.onclick = function () {
       return false;
   }
 
+  if (building == "hurld" && posNum > 11) {
+    disclaimer.innerHTML = "";
+  }
+
   switch (posNum) {
     case 0:
       return false;
@@ -200,6 +204,10 @@ nextButton.onclick = function () {
   switch (isImageFinishedLoading) {
     case 0:
       return false;
+  }
+
+  if (building == "hurld" && posNum > 11) {
+    disclaimer.innerHTML = "These images are from <a href='https://www.reddit.com/r/urbexnewengland/comments/1d0c98h/play_hard_play_fair/' target='_blank'>Reddit</a>.";
   }
 
   switch (posNum) {

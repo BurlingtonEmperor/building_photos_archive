@@ -11,7 +11,13 @@ const imageListHurld = [
   "IMG_9105.jpg",
   "IMG_9106.jpg",
   "IMG_9237.jpg",
-  "IMG_9238.jpg"
+  "IMG_9238.jpg", // pos 11
+  "z1.WEBP", // starting here are the images from Reddit.
+  "z2.WEBP",
+  "z3.WEBP",
+  "z4.WEBP",
+  "z5.WEBP",
+  "z6.WEBP"
 ];
 
 const imgDescHurld = [
@@ -26,5 +32,11 @@ const imgDescHurld = [
   "Electric Blue,Main Hallway",
   "School's Out,Classroom (Unknown)",
   "Lonely,Classroom (Unknown)",
-  "Playtime,Cafeteria Exterior"
+  "Playtime,Cafeteria Exterior",
+  "Death of the 50's,Gym",
+  "SMAAAAAAASH,Main Hallway",
+  "Grave Marker,Gym",
+  "Frozen in Time,Unknown",
+  "Office Space,Classroom (Unknown)",
+  "Copper Thieves,Main Hallway"
 ];
