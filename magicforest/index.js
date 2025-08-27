@@ -1,5 +1,6 @@
 let isImageFinishedLoading = 1;
 
+const body = document.body;
 function loadBack (backSrc) {
   let newImg = new Image();
 
