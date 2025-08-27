@@ -51,7 +51,7 @@ waitForElement("body", 3000).then(function () {
   console.log("Error: did not load!");
 });
 
-const memoricImagePath = "../memoric/photos/";
+const memoricImagePath = "../magicforest/photos/";
 const memoricImagesList = [
   "z1.jpg",
   "z2.jpg",
@@ -66,24 +66,7 @@ const memoricImagesList = [
   "z11.jpg",
   "z12.jpg",
   "z13.jpg",
-  "z14.jpg",
-  "z15.jpg",
-  "z16.jpg",
-  "z17.jpg",
-  "z18.jpg",
-  "z19.jpg",
-  "z20.jpg",
-  "z21.JPG",
-  "z22.jpg",
-  "z23.jpg",
-  "z24.jpg",
-  "z25.jpg",
-  "z26.jpg",
-  "z27.jpg",
-  "z28.jpg",
-  "z29.jpg",
-  "z30.jpg",
-  "z31.jpg"
+  "z14.jpg"
 ];
 const memoricNamesList = [
   "The Beginning",
@@ -96,26 +79,10 @@ const memoricNamesList = [
   "Metaphysical Reality",
   "Strange Truths",
   "Fairie Laea",
-  "Christmastime",
-  "Dinner's Ready",
-  "Tower of Death",
-  "Beavis",
-  "Butthead",
-  "Graduation. '23",
-  "Earthbound",
-  "Hockey Game",
-  "Soccer Game",
-  "Zenithia",
-  "One-Winged Angel",
-  "Frosty the Snowman",
-  "Independence",
-  "Reggie Lewis",
-  "Mills and Ponds",
-  "Last Field Day",
-  "Prom",
-  "Me in the Middle.",
-  "Twilight",
-  "Rag Rock."
+  "Pine Gate",
+  "Witch's House",
+  "Returning",
+  "Welcome Home"
 ];
 
 let imageZLoc = 0;
@@ -124,7 +91,7 @@ const imageName = document.getElementById("image-name");
 
 function imageRotate () {
   switch (imageZLoc) {
-    case 30:
+    case 13:
       imageZLoc = 0;
       break;
     default:
