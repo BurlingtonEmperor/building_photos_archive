@@ -46,7 +46,7 @@ function waitForElement(querySelector, timeout){
 }
 
 waitForElement("body", 3000).then(function () {
-  loadBack("../photos/magicforest.jpg");
+  loadBack("../magicforest/photos/magicforest.jpg");
 }).catch(() => {
   console.log("Error: did not load!");
 });
