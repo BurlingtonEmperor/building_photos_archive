@@ -1,5 +1,14 @@
 let isImageFinishedLoading = 1;
 
+function loadBack (backSrc) {
+  let newImg = new Image();
+
+  newImg.onload = function () {
+    body.style.backgroundImage = "url('" + newImg.src + "')";
+  }
+  newImg.src = backSrc;
+}
+
 function changeImageSmoothly(imgEl, newSrc) {
   imgEl.classList.add('fade-out');
   isImageFinishedLoading = 0;
@@ -13,6 +22,34 @@ function changeImageSmoothly(imgEl, newSrc) {
     };
   }, 400); 
 }
+
+function waitForElement(querySelector, timeout){
+  return new Promise((resolve, reject)=>{
+    var timer = false;
+    if(document.querySelectorAll(querySelector).length) return resolve();
+    const observer = new MutationObserver(()=>{
+      if(document.querySelectorAll(querySelector).length){
+        observer.disconnect();
+        if(timer !== false) clearTimeout(timer);
+        return resolve();
+      }
+    });
+    observer.observe(document.body, {
+      childList: true, 
+      subtree: true
+    });
+    if(timeout) timer = setTimeout(()=>{
+      observer.disconnect();
+      reject();
+    }, timeout);
+  });
+}
+
+waitForElement("body", 3000).then(function () {
+  loadBack("../photos/magicforest.jpg");
+}).catch(() => {
+  console.log("Error: did not load!");
+});
 
 const memoricImagePath = "../memoric/photos/";
 const memoricImagesList = [
@@ -49,11 +86,11 @@ const memoricImagesList = [
   "z31.jpg"
 ];
 const memoricNamesList = [
-  "EvilCorp",
-  "Frutiger Aero",
-  "Empire of the Sun",
-  "Aerith",
-  "Linus and Lucy",
+  "The Beginning",
+  "Go Further?",
+  "Fairie Circle",
+  "Ancient Ruins",
+  "Angels",
   "Death Angel, USA",
   "XClusive",
   "Big Nate",
