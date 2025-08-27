@@ -45,8 +45,7 @@ const memoricImagesList = [
   "z27.jpg",
   "z28.jpg",
   "z29.jpg",
-  "z30.jpg",
-  "z31.jpg"
+  "z30.jpg"
 ];
 const memoricNamesList = [
   "EvilCorp",
@@ -87,7 +86,7 @@ const imageName = document.getElementById("image-name");
 
 function imageRotate () {
   switch (imageZLoc) {
-    case 30:
+    case 29:
       imageZLoc = 0;
       break;
     default:
