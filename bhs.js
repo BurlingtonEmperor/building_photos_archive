@@ -153,7 +153,8 @@ const imgListBHS = [
   "z59.jpg",
   "z60.jpg",
   "z61.jpg",
-  "z62.jpg"
+  "z62.jpg",
+  "IMG_7808.jpeg"
 ];
 
 const imgDescBHS = [
@@ -310,5 +311,6 @@ const imgDescBHS = [
   "American Graffiti,Fitness Center",
   "Pheonix Down,Boys Locker Room",
   "To Gondor!,Storage Closet (Wooden Gym)",
-  "Apple Pen,Mrs. Cherwinski's Room (Science Hallway)"
+  "Apple Pen,Mrs. Cherwinski's Room (Science Hallway)",
+  "Luxury Bus,Gym Parking Lot"
 ];
