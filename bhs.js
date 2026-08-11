@@ -154,7 +154,9 @@ const imgListBHS = [
   "z60.jpg",
   "z61.jpg",
   "z62.jpg",
-  "IMG_7808.jpeg"
+  "IMG_7808.jpeg",
+  "IMG_7601.jpeg",
+  "IMG_7531.jpeg"
 ];
 
 const imgDescBHS = [
@@ -312,5 +314,7 @@ const imgDescBHS = [
   "Pheonix Down,Boys Locker Room",
   "To Gondor!,Storage Closet (Wooden Gym)",
   "Apple Pen,Mrs. Cherwinski's Room (Science Hallway)",
-  "Luxury Bus,Gym Parking Lot"
+  "Luxury Bus,Gym Parking Lot",
+  "Brainfog,Student Parking Lot",
+  "Web Crimes,Mr. Regan's Classroom (Math Hallway)"
 ];
