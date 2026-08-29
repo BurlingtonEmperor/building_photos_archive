@@ -28,7 +28,7 @@ const imgListPG = [
   "IMG_9383.jpg",
   "IMG_9384.jpg",
   "z1.jpg",
-  "ss2.jpg"
+  "ss2.jpg",
   "vernalpool2.jpg",
 ];
 
