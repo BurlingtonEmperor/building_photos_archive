@@ -27,7 +27,9 @@ const imgListPG = [
   "IMG_9382.jpg",
   "IMG_9383.jpg",
   "IMG_9384.jpg",
-  "z1.jpg"
+  "z1.jpg",
+  "ss2.jpg"
+  "vernalpool2.jpg",
 ];
 
 const imgDescPG = [
@@ -58,5 +60,7 @@ const imgDescPG = [
   "Overgrown,Baseball Field",
   "Fences,Playground",
   "Cubbys,Lower Hallway",
-  "Secret Stone Slab,Side Field"
+  "Secret Stone Slab,Side Field",
+  "Secret Stone Slab 2,Side Field",
+  "Vernal Pool,Pine Glen Conservation Area"
 ];
